@@ -84,6 +84,7 @@ export default {
   setup() {
     const route = useRoute();
     const codigo = route.params.codigo;
+    console.log('codigo', codigo)
     const certificadoStore = useCertificadoStore();
 
     const loading = ref(true);
@@ -113,7 +114,6 @@ export default {
 };
 </script>
   
-  <style scoped>
-/* Estilos opcionales, si es necesario */
+<style scoped>
 </style>
   
