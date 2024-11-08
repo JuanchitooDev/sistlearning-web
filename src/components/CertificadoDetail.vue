@@ -84,7 +84,7 @@ export default {
   setup() {
     const route = useRoute();
     const codigo = route.params.codigo;
-    console.log('codigo', codigo)
+    console.log('codigo capturado', codigo)
     const certificadoStore = useCertificadoStore();
 
     const loading = ref(true);
